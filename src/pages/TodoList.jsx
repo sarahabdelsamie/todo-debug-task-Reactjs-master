@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import TodoItem from "../components/TodoItem";
-import { Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom"; /*forget this*/
 
 const TodoList = () => {
   const myTasks = [
@@ -26,9 +26,10 @@ const TodoList = () => {
         </div>
         <div className="col-md-5"></div>
       </div>
-      <Outlet />
+      <Outlet /> 
     </div>
   );
 };
 export default TodoList;
 /*name of array myTasks wrong missed key key={t.id}*/
+/*forget <Outlet />*/
